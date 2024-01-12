@@ -1,0 +1,91 @@
+
+        /* 
+        Before starting i have wrote CSS by my own 
+        did by remembering by myself.
+             */
+
+
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+li , ul{
+    list-style: none;
+    padding: 0px;
+    
+}
+
+ol .lists{
+    list-style:disc;
+    list-style-position: inside;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover:not(.exter){
+    color: white;
+}
+
+strong{
+    text-decoration: underline;
+}
+
+button{
+    font-size: 15px;
+    /* border: 25px; */
+    border-radius: 5px;
+    transition: 120ms;
+}
+
+button:hover{
+    background-color: black;
+    font-size: 18px;
+}
+
+
+/* h3{
+    padding-left: 100px ;
+} */
+
+/* 
+h3, img{
+    height: auto;
+    width: 550px;
+    text-align: center;
+} */
+
+hr{
+    padding-right: 500px;
+    width: 500px;
+}
+
+.image{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    /* border: 2px solid; */
+    justify-content: center;
+    align-items: center;
+    margin-left: 735px;
+}
+
+
+
+.image img{
+    height:310px;
+    width:310px;
+    transition: 125ms;
+}
+
+.image img:hover{
+    height: 380px;
+    width: 380px;
+}
+
