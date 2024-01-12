@@ -1,3 +1,3 @@
 # Recipes
 
-# Just did a recipes section learning from TOP...
+# using my basic/newbie knowledge of HTML and CSS
